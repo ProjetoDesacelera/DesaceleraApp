@@ -1,0 +1,611 @@
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+  	<main class="tabela">
+  		<h3 align="center">Teste de Zung para auto-avaliação da depressão</h3>
+  		<p>O teste consiste de vinte perguntas, sendo dez positivas e dez negativas.
+  		Cada questão tem nível de 1 a 4 e ao final é feito a soma dos<br>
+  		resultados e apresentado o diagnóstico</p>
+  	<table>
+  		<tr>
+  			<th width="50">Perguntas</th>
+  			<th>Quase nunca</th>
+  			<th>Algumas vezes</th>
+  			<th>Boa parte do tempo</th>
+  			<th>A maior parte do tempo</th>
+  		</tr>	
+  		<tr align="center">
+  			<td align="left">
+  				<label>1-Sinto-me abatido e triste.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p1" id="p11" value="1">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p1" id="p12" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p1" id="p13" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p1" id="p14" value="4">
+  			</td>
+  		</tr>		
+  		<tr align="center">
+  			<td align="left">
+  				<label>2-De manhã é quando me sinto melhor.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p2" id="p21" value="4">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p2" id="p22" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p2" id="p23" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p2" id="p24" value="1">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>3-Tenho crises de choro ou tenho vontade de chorar.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p3" id="p31" value="1">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p3" id="p32" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p3" id="p33" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p3" id="p34" value="4">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>4-Tenho dificuldades em dormir à noite.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p4" id="p41" value="1">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p4" id="p42" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p4" id="p43" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p4" id="p44" value="4">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>5-Como tanto quanto comia antes.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p5" id="p51" value="4">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p5" id="p52" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p5" id="p53" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p5" id="p54" value="1">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>6-Continuo gostando de sexo.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p6" id="p61" value="4">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p6" id="p62" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p6" id="p63" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p6" id="p64" value="1">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>7-Percebi que estou perdendo peso.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p7" id="p71" value="1">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p7" id="p72" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p7" id="p73" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p7" id="p74" value="4">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>8-Tenho problemas de prisão de ventre.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p8" id="p81" value="1">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p8" id="p82" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p8" id="p83" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p8" id="p84" value="4">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>9-Meu coração bate mais depressa do que antes.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p9" id="p91" value="1">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p9" id="p92" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p9" id="p93" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p9" id="p94" value="4">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>10-Fico cansado sem nenhum motivo.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p10" id="p101" value="1">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p10" id="p102" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p10" id="p103" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p10" id="p104" value="4">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>11-Minha mente está lúcida como antes.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p11" id="p111" value="4">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p11" id="p112" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p11" id="p113" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p11" id="p114" value="1">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>12-Acho a mesma facilidade de antes para fazer as coisas.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p12" id="p121" value="4">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p12" id="p122" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p12" id="p123" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p12" id="p124" value="1">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>13-Sinto-me inquieto e não consigo ficar parado.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p13" id="p131" value="1">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p13" id="p132" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p13" id="p133" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p13" id="p134" value="4">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>14-Tenho esperanças em relação ao futuro.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p14" id="p141" value="4">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p14" id="p142" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p14" id="p143" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p14" id="p144" value="1">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>15-Sinto-me mais irritado do que de costume.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p15" id="p151" value="1">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p15" id="p152" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p15" id="p153" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p15" id="p154" value="4">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>16-Acho fácil tomar decisões.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p16" id="p161" value="4">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p16" id="p162" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p16" id="p163" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p16" id="p164" value="1">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>17-Sinto-me útil e necessário.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p17" id="p171" value="4">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p17" id="p172" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p17" id="p173" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p17" id="p174" value="1">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>18-Minha vida é bastante compensadora.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p18" id="p181" value="4">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p18" id="p182" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p18" id="p183" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p18" id="p184" value="1">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>19-Acho que seria bom para os outros se eu morresse.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p19" id="p191" value="1">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p19" id="p192" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p19" id="p193" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p19" id="p194" value="4">
+  			</td>
+  		</tr>
+  		<tr align="center">
+  			<td align="left">
+  				<label>20-Continuo gostando das coisas em geral como antes.</label>
+  			</td>
+  			<td>	
+  				<input type="radio" name="p20" id="p201" value="4">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p20" id="p202" value="3">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p20" id="p203" value="2">
+  			</td>
+  			<td>	
+  				<input type="radio" name="p20" id="p204" value="1">
+  			</td>
+  		</tr>
+  	</table>
+  	<h3>Escala conforme faixa de valores abaixo:</h3>
+  	<table>
+  		<tr>
+  			<td>
+  				<p><b>20-22:</b></p>
+  			</td>	
+  			<td>
+  				<p>Você é super saudável.</p>
+  			</td>	
+  		</tr>
+  		<tr>
+  			<td>
+  				<p><b>23-29:</b></p>
+  			</td>	
+  			<td>
+  				<p>Você está sentindo algum estresse.</p>
+  			</td>	
+  		</tr>
+  		<tr>
+  			<td>
+  				<p><b>30-39:</b></p>
+  			</td>	
+  			<td>
+  				<p>Você está enfraquecido por um nível baixo de depressão (ou esgotamento) e precisa de
+				alguma ajuda ou, no caso de esgotamento,<br> de algumas mudanças sérias em sua vida.</p>
+  			</td>	
+  		</tr>
+  		<tr>
+  			<td>
+  				<p><b>40-59:</b></p>
+  			</td>	
+  			<td>
+  				<p>Você está seriamente debilitado pela depressão (ou esgotamento) e precisa de
+					aconselhamento e ajuda espiritual.</p>
+  			</td>	
+  		</tr>
+  		<tr>
+  			<td>
+  				<p><b>60-80:</b></p>
+  			</td>	
+  			<td>
+  				<p>Você está praticamente paralisado pela depressão (ou esgotamento) e precisa de
+					aconselhamento e ajuda espiritual urgente e profunda,<br>
+					provavelmente precisando de	terapia profissional e/ou tratamento sério em relação à restauração.</p>
+  			</td>	
+  		</tr>
+  	</table>
+  	<br>
+	<button type="button" onclick="verificar()">Calcular valor</button>	 	
+  	</main>
+  	
+  	<script>
+  		function verificar() {
+
+  			var marcado = 0;
+  			if ((document.getElementById("p11").checked == true) || (document.getElementById("p12").checked == true) || (document.getElementById("p13").checked == true) || (document.getElementById("p14").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p21").checked == true) || (document.getElementById("p22").checked == true) || (document.getElementById("p23").checked == true) || (document.getElementById("p24").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p31").checked == true) || (document.getElementById("p32").checked == true) || (document.getElementById("p33").checked == true) || (document.getElementById("p34").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p41").checked == true) || (document.getElementById("p42").checked == true) || (document.getElementById("p43").checked == true) || (document.getElementById("p44").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p51").checked == true) || (document.getElementById("p52").checked == true) || (document.getElementById("p53").checked == true) || (document.getElementById("p54").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p61").checked == true) || (document.getElementById("p62").checked == true) || (document.getElementById("p63").checked == true) || (document.getElementById("p64").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p71").checked == true) || (document.getElementById("p72").checked == true) || (document.getElementById("p73").checked == true) || (document.getElementById("p74").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p81").checked == true) || (document.getElementById("p82").checked == true) || (document.getElementById("p83").checked == true) || (document.getElementById("p84").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p91").checked == true) || (document.getElementById("p92").checked == true) || (document.getElementById("p93").checked == true) || (document.getElementById("p94").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p101").checked == true) || (document.getElementById("p102").checked == true) || (document.getElementById("p103").checked == true) || (document.getElementById("p104").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p111").checked == true) || (document.getElementById("p112").checked == true) || (document.getElementById("p113").checked == true) || (document.getElementById("p114").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p121").checked == true) || (document.getElementById("p122").checked == true) || (document.getElementById("p123").checked == true) || (document.getElementById("p124").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p131").checked == true) || (document.getElementById("p132").checked == true) || (document.getElementById("p133").checked == true) || (document.getElementById("p134").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p141").checked == true) || (document.getElementById("p142").checked == true) || (document.getElementById("p143").checked == true) || (document.getElementById("p144").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p151").checked == true) || (document.getElementById("p152").checked == true) || (document.getElementById("p153").checked == true) || (document.getElementById("p154").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p161").checked == true) || (document.getElementById("p162").checked == true) || (document.getElementById("p163").checked == true) || (document.getElementById("p164").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p171").checked == true) || (document.getElementById("p172").checked == true) || (document.getElementById("p173").checked == true) || (document.getElementById("p174").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p181").checked == true) || (document.getElementById("p182").checked == true) || (document.getElementById("p183").checked == true) || (document.getElementById("p184").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p191").checked == true) || (document.getElementById("p192").checked == true) || (document.getElementById("p193").checked == true) || (document.getElementById("p194").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if ((document.getElementById("p201").checked == true) || (document.getElementById("p202").checked == true) || (document.getElementById("p203").checked == true) || (document.getElementById("p204").checked == true)) {
+  				marcado = marcado + 1;
+  			}
+  			if (marcado < 20) {
+  				alert('Faltou selecionar alguma(s) das perguntas!');
+
+  			}
+  			else {
+  				var valor = 0;
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p1")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p1")[i].value);
+  					} 
+  				}
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p2")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p2")[i].value);
+  					} 
+  				}	
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p3")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p3")[i].value);
+  					} 
+  				}	
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p4")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p4")[i].value);
+  					} 
+  				}	
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p5")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p5")[i].value);
+  					} 
+  				}	
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p6")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p6")[i].value);
+  					} 
+  				}
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p7")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p7")[i].value);
+  					} 
+  				}
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p8")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p8")[i].value);
+  					} 
+  				}
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p9")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p9")[i].value);
+  					} 
+  				}	
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p10")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p10")[i].value);
+  					} 
+  				}		
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p11")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p11")[i].value);
+  					} 
+  				}
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p12")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p12")[i].value);
+  					} 
+  				}
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p13")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p13")[i].value);
+  					} 
+  				}		
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p14")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p14")[i].value);
+  					} 
+  				}
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p15")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p15")[i].value);
+  					} 
+  				}	
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p16")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p16")[i].value);
+  					} 
+  				}	
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p17")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p17")[i].value);
+  					} 
+  				}	
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p18")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p18")[i].value);
+  					} 
+  				}		
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p19")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p19")[i].value);
+  					} 
+  				}			
+
+  				for (var i = 0; i < 4; i++) {
+  					if (document.getElementsByName("p20")[i].checked == true) {
+  						valor = valor + parseInt(document.getElementsByName("p20")[i].value);
+  					} 
+  				}		
+  				alert("O valor do cálculo é: " + valor);	
+  				}
+  		}
+
+  	</script>
+
+  </body>	
+
+
+
+</html>

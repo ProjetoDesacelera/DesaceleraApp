@@ -1,0 +1,27 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+button[type=button] {
+width: 100%;
+background-color: red;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=button]:hover {
+background-color: #45a049;
+}
